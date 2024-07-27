@@ -5,7 +5,7 @@ import { FormValues } from "../Types";
 import { toast } from "react-toastify";
 
 const ContactForm = () => {
-  const [showOther, setShowOther] = useState(false);
+  const [showOther, setShowOther] = useState<boolean>(false);
 
   const { values, errors, touched, handleSubmit, getFieldProps } =
     useFormik<FormValues>({

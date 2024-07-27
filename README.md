@@ -2,8 +2,6 @@
 
 Sample contact form using Formik and Yup libraries in React
 
-<a href="">DEMO</a>
-
 ## Installation
 
 ```
